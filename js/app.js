@@ -1,6 +1,6 @@
 let min = 1,
     max = 10,
-    winningNum = Math.floor(Math.random() * (10 - 1) + 1),
+    winningNum = getRandomNum(min, max),
     guessesLeft = 3;
 
 const game = document.querySelector('#game'),
